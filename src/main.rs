@@ -11,7 +11,7 @@ use unic_char_property::EnumeratedCharProperty;
 
 #[derive(Parser, Debug)]
 #[command(author, version)]
-#[command(about = "Displays information about each Unicode character passed", long_about="hello")]
+#[command(about = "Displays information about each Unicode character passed")]
 struct Options {
     #[arg(
         short = 'f',
